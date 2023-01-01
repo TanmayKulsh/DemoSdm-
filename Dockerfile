@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /app
-COPY package.jsonn /app
+COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node server.json
